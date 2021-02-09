@@ -64,5 +64,5 @@ async def wiki(planet: Planet):
     summary = wikipedia.summary(planet)
     
     return { 
-        "text": summary
+        "text": "D'après Wikipedia, " + summary
     }
